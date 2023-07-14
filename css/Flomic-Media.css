@@ -1,0 +1,215 @@
+@media only screen and (max-width:768px) {
+    .Menubar {
+        width: 20%;
+        height: 100%;
+        background-color: #4B5056;
+        font-size: 12px;
+    }
+    .Container {
+        width: 80%;
+        border: solid;
+        margin-left: 20%;
+    }
+    .sub,
+    .name,
+    .email {
+        /* text-align: center; */
+        width: 50%;
+        margin-top: 25px;
+    }
+    .inputs {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .Menubar {
+        width: 20%;
+        height: 100%;
+        background-color: #4B5056;
+        font-size: 9px;
+    }
+    .Bgimage {
+        height: 300px;
+        background-size: cover;
+    }
+    
+    .Container {
+        width: 80%;
+        margin-left: 20%;
+    }
+    .ContentHead {
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        right: 50%;
+        font-size: 15px;
+        color: white;
+        width: 40%;
+        text-align: center;
+    }
+    .ContentHead>p {
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        line-height: 16px;
+    }
+    #Responsive {
+        font-size: 20px;
+    }
+    button {
+        padding: 8px;
+        font-size: 10px;
+    }
+    .Welcome p {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .DownContainer {
+        width: 80%;
+    }
+    .GirlsImg {
+        justify-content: center;
+        font-size: 13px;
+    }
+    .GirlsImg h3 {
+        font-size: 14px;
+    }
+    .Img1,
+    .Img2,
+    .Img3 {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+    .Img1C1,
+    .Img2C2,
+    .Img3C3 {
+        padding: 15px;
+    }
+    #About {
+        /* margin: 1px 0px; */
+        padding: 20px 10px;
+    }
+    .Management-Content {
+        width: 100%;
+        text-align: justify;
+        line-height: 18px;
+        font-size: 12px;
+        color: #4B5056;
+    }
+    .Management-Content h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+    .ManagementImg {
+        width: 100%;
+    }
+    .best,
+    .Fully,
+    .unlimited {
+        width: 100%;
+        padding: 8px;
+        line-height: 20px;
+    }
+    .bestblock {
+        display: block;
+        margin-top: 35px;
+        font-size: 13px;
+        padding: 15px;
+    }
+    .Fully,
+    .unlimited {
+        margin-top: 20px;
+        margin-left: auto;
+    }
+    .skillscontent {
+        width: 100%;
+        text-align: justify;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .skillscontent p {
+        color: #4B5056;
+        line-height: 19px;
+    }
+    .skillscontent>h2 {
+        text-align: center;
+    }
+    .progressbar {
+        width: 90%;
+        display: block;
+        padding: 15px;
+        font-size: 13px;
+    }
+    .skills {
+        display: flex;
+        justify-content: center;
+    }
+    .photos p {
+        font-size: 15px;
+    }
+    .pr1c1,
+    .pr1c2,
+    .pr1c3,
+    .pr2c1,
+    .pr2c2,
+    .pr2c3 {
+        width: 100%;
+        padding: 10px;
+    }
+    .map {
+        margin-left: 5px;
+        width: 100%;
+    }
+    .map iframe {
+        height: 200px;
+    }
+    input[type="text"] {
+        font-size: 13px;
+        width: 300px;
+    }
+    .inputs {
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    .inputs p {
+        font-size: 14px;
+    }
+    .name,
+    .email {
+        width: 100%;
+        /* text-align: center; */
+        margin-top: 25px;
+    }
+    .sub {
+        /* text-align: center; */
+        width: 100%;
+        margin-top: 25px;
+    }
+    .message input {
+        width: 100%;
+        height: 100px;
+    }
+    .copyrightsfooter {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .wifi {
+        background-color: #393E42;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 10%;
+    }
+    .fa-brands,
+    .fab {
+        color: #393E42;
+        font-size: 24px;
+    }
+    .footer {
+        padding: 6px;
+    }
+}

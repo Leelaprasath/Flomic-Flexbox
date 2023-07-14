@@ -1,0 +1,517 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.MainContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Menubar {
+    width: 20%;
+    height: 100vh;
+    background-color: #4B5056;
+    position: fixed;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 0;
+}
+
+button:hover {
+    color: black;
+    transform: translatex(20px);
+    transition: 3s;
+}
+
+.Read button,
+.ServicesC button {
+    background-color: blue;
+}
+
+.Aboutus button {
+    background-color: yellow;
+}
+
+.Container {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.Bgimage {
+    background-image: url(../images/Flomic-Img.png);
+    /* width: 100%; */
+    height: 700px;
+    background-size: cover;
+}
+
+.MenuR1 {
+    margin: 45px auto;
+}
+
+.ContentHead {
+    position: absolute;
+    top: 33%;
+    left: 40%;
+    right: 50%;
+    font-size: 19px;
+    color: white;
+    width: 40%;
+    text-align: center;
+    z-index: 1;
+}
+
+.Read {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+}
+
+.SecondContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DownContainer {
+    width: 90%;
+    text-align: center;
+}
+
+.Welcome {
+    margin: 35px 0px;
+}
+
+.Welcome p {
+    line-height: 25px;
+}
+
+#blue {
+    color: aqua;
+}
+
+h2 {
+    font-weight: 400;
+    color: aqua;
+}
+
+.Readmore {
+    width: 20%;
+    background-color: blue;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#Responsive {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+textarea {
+    width: 95%;
+}
+
+#Home,
+#About,
+#Services,
+#Portfolio,
+#Contact {
+    border: solid 1px;
+    margin: 2px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #393E42;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#Home {
+    border-left: solid blue;
+}
+
+#Home:hover,
+#About:hover,
+#Services:hover,
+#Portfolio:hover,
+#Contact:hover {
+    transform: translatex(30px);
+    transition: 1s;
+}
+
+#About {
+    border-left: solid rgb(199, 199, 57);
+}
+
+#Portfolio {
+    border-left: solid lawngreen;
+}
+
+#Contact {
+    border-left: solid rgb(229, 103, 103);
+}
+
+#Services {
+    border-left: solid violet;
+}
+
+#About a:hover {
+    color: yellow;
+}
+
+#Services a:hover {
+    color: violet;
+}
+
+#Portfolio a:hover {
+    color: lawngreen;
+}
+
+#Contact a:hover {
+    color: rgb(229, 103, 103);
+}
+
+.Aboutus {
+    width: 100%;
+    border-top: solid rgb(153, 153, 16);
+    display: flex;
+    justify-content: start;
+    margin-bottom: 30px;
+}
+
+.Aboutus button {
+    background-color: rgb(164, 164, 36);
+}
+
+.GirlsImg {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Img1,
+.Img2,
+.Img3 {
+    width: 33.33333333%;
+    padding: 10px;
+    /* border: solid; */
+}
+
+.Img1C1,
+.Img2C2,
+.Img3C3 {
+    padding: 15px;
+}
+
+#yellow {
+    color: orange;
+}
+
+.Management {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 45px;
+}
+
+.Management-Content {
+    width: 66.3333333%;
+    text-align: left;
+    line-height: 25px;
+}
+
+.ManagementImg {
+    width: 33%;
+}
+
+.ServicesC {
+    border-top: blue solid;
+    justify-content: start;
+    display: flex;
+    margin-top: 25px;
+}
+
+.bestblock {
+    display: flex;
+    margin-top: 35px;
+}
+
+.best,
+.Fully,
+.unlimited {
+    width: 33.3333333333%;
+    display: flex;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+
+.Fully {
+    margin: 0px 15px;
+}
+
+.icon {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.content {
+    width: 80%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.skillscontent {
+    width: 68%;
+    text-align: start;
+    padding: 10px;
+}
+
+.progressbar {
+    width: 32%;
+    display: block;
+    padding: 15px;
+}
+
+.graphics,
+.html,
+.wordpress,
+.marketing {
+    border: solid 1px;
+    margin-bottom: 15px;
+}
+
+.graphicsbar {
+    width: 90%;
+    background-color: purple;
+    color: white;
+}
+
+.htmlbar {
+    width: 75%;
+    background-color: purple;
+    color: white;
+}
+
+.wordpressbar {
+    background-color: purple;
+    color: white;
+    width: 66%;
+}
+
+.marketingbar {
+    background-color: purple;
+    color: white;
+    width: 88%;
+}
+
+.purple {
+    color: purple;
+}
+
+.portfoliobtn {
+    width: 100%;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid greenyellow;
+    color: white;
+    justify-content: start;
+    margin-top: 25px;
+}
+
+.portfoliobtn button {
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.photor1,
+.photor2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pr1c1,
+.pr1c2,
+.pr1c3,
+.pr2c1,
+.pr2c2,
+.pr2c3 {
+    width: 33.33333333%;
+    padding: 10px;
+}
+
+.photos p {
+    color: green;
+}
+
+.loadmore {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.loadmore button {
+    color: white;
+    background-color: green;
+}
+
+.contactbtn {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid red;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.contactbtn button {
+    color: white;
+    background-color: red;
+}
+
+.map {
+    margin-top: 40px;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.name,
+.email,
+.sub {
+    width: 33.333333%;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 30px;
+    font-size: 18px;
+}
+
+#red {
+    color: red;
+}
+
+.message {
+    margin-top: 35px;
+    text-align: left;
+}
+
+.sendmessage {
+    margin-top: 35px;
+    border: solid;
+    text-align: left;
+    color: white;
+}
+
+.sendmessage button {
+    background-color: rgb(142, 39, 88);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    background-color: gray;
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.footerr1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fb,
+.twitter,
+.wheel,
+.linkedin,
+.wifi {
+    flex-grow: 1;
+    margin: 10px;
+    text-align: center;
+}
+
+.wifi {
+    background-color: #393E42;
+    font-size: 15px;
+    padding: 9px;
+    border-radius: 10%;
+}
+
+.fa-brands,
+.fab {
+    color: #393E42;
+    font-size: 40px;
+}
+
+.copyrightsfooter {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(107, 105, 105);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flomicwhite {
+    color: rgb(228, 223, 223);
+}
+
+#flomicgrey {
+    color: #434446;
+}
+
+.width90 {
+    width: 90%;
+}
+
+.width90 p {
+    text-align: center;
+}
+
+.message input {
+    width: 95%;
+    height: 200px;
+}
